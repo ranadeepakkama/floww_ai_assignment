@@ -3,7 +3,7 @@ const cors = require('cors');
 const { open } = require('sqlite');
 const sqlite3 = require('sqlite3');
 const path = require('path');
-const jwt = require('jsonwebtoken');
+
 
 let database = null;
 const databasePath = path.join(__dirname, 'personalExpenseTracker.db');
